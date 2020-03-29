@@ -77,7 +77,7 @@ def self.find_by(attributes)
     LIMIT 1
   SQL
 
-  DB[:conn].execute(sql)
+  test = DB[:conn].execute(sql)
 
 end
 
