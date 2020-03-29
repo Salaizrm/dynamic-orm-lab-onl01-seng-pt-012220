@@ -78,6 +78,7 @@ def self.find_by(attributes)
   SQL
 
   test = DB[:conn].execute(sql)
+  binding.pry
 
 end
 
